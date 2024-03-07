@@ -1,0 +1,56 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.sidebar {
+    width: 30rem;
+    height: 100vh;
+    background: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.profile-pic-border {
+    width: 20rem;
+    /* Set a fixed width */
+    height: 20rem;
+    /* Set a fixed height equal to the width */
+
+    /* Add a border to see the circle shape */
+    border-radius: 50%;
+    /* Make the border radius 50% to create a circle */
+    overflow: hidden;
+}
+
+.profile-image {
+    display: block;
+    /* Ensure the image is a block element */
+    width: 100%;
+    /* Set the width to fill the container */
+    height: 100%;
+    /* Set the height to fill the container */
+    object-fit: cover;
+}
