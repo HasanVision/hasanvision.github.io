@@ -138,14 +138,14 @@ nav .start-home,
 a:nth-child(1):hover~.animation {
     width: 100px;
     left: 0;
-    background-color: #1abc9c;
+    background-color: rgb(26, 188, 156);
 }
 
 nav .start-about,
 a:nth-child(2):hover~.animation {
     width: 110px;
     left: 100px;
-    background-color: #e74c3c;
+    background-color: #c5e73c;
 }
 
 nav .start-blog,
@@ -182,7 +182,7 @@ h1 {
     font-size: 30px;
     color: #ecf0f1;
     text-shadow: 2px 2px 4px #000000;
-    font-family: 'Cherry Swash', cursive;
+    /* font-family: 'Cherry Swash', cursive; */
 }
 
 p {
@@ -193,4 +193,46 @@ p {
     color: #ecf0f1;
     font-family: 'Cherry Swash', cursive;
     font-size: 16px;
+}
+
+
+.background-img {
+    opacity: 0.6;
+    width: 30rem;
+    height: 20rem;
+}
+
+
+
+
+.slider {
+    background: rgb(26, 188, 156);
+    width: 90%;
+    /* height: 30rem; */
+    margin: 1.5rem;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+
+.homepage-display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+.content-display {
+    width: 50%;
+    background: #2c3e50;
+}
+
+.content-display-image {
+    /* background: rgb(63, 75, 73);
+    opacity: 0.4;
+    border-radius: 200px 10px 10px 200px;
+    -moz-border-radius: 200px 10px 10px 200px;
+    -webkit-border-radius: 200px 10px 10px 200px;
+    border: 0px solid #000000; */
 }
