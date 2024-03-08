@@ -52,6 +52,11 @@ html {
 
 }
 
+h4 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
 a {
     text-decoration: none;
     /* Remove underline */
@@ -220,18 +225,17 @@ p {
 .slider {
     width: 90%;
     margin-top: 1rem;
-}
-
-.slider-glossy>h4 {
-    padding: 2rem;
 
 }
+
+
 
 .slider-glossy {
     /* From https://css.glass */
 
-
-    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     /* margin: 1.5rem; */
     border-radius: 8px;
     background: rgba(0, 0, 0, 0.42);
@@ -240,9 +244,11 @@ p {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
 }
 
-.slider-glossy>h1 {}
+
 
 .slider-glossy>h1 {
     font-family: Tahoma, Geneva, sans-serif;
@@ -351,4 +357,11 @@ p {
     box-shadow: rgba(63, 205, 89, 0.5) 0 1px 30px;
     transition-duration: .1s;
     opacity: 1;
+}
+
+.git-ls {
+    background: #48FF63;
+    background: linear-gradient(to right, #48FF63 0%, #FFFF00 25%, #05C1FF 50%, #FFFF00 75%, #41FF63 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

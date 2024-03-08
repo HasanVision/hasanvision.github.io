@@ -231,7 +231,7 @@ p {
     /* From https://css.glass */
 
 
-    height: 25rem;
+    height: 10rem;
     /* margin: 1.5rem; */
     border-radius: 8px;
     background: rgba(0, 0, 0, 0.42);
@@ -242,7 +242,7 @@ p {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.slider-glossy>h1 {}
+
 
 .slider-glossy>h1 {
     font-family: Tahoma, Geneva, sans-serif;
@@ -314,6 +314,8 @@ p {
     transition-duration: .1s;
     opacity: 1;
 }
+
+
 
 
 .persona-iformation-links {
