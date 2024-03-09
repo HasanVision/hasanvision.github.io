@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 .main {
@@ -19,14 +18,13 @@
     justify-content: space-between;
     height: 100vh;
     width: 30rem;
-
+    /* background: aquamarine; */
 }
 
 .landing {
 
     margin-left: 2rem;
     margin-right: 2rem;
-
 }
 
 .profile-pic-border {
@@ -221,6 +219,11 @@ a:nth-child(5):hover~.animation {
 
 .homepage-display {
     margin-top: 3rem;
+    background-image: url('/assets/git-toolbox.png');
+    background-size: 400px 300px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 100%;
 
 }
 
@@ -252,8 +255,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
-
 
 h1 {
     color: #03791a;
