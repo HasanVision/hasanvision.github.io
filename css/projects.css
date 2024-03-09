@@ -6,6 +6,7 @@
 
 .main {
     display: flex;
+    font-family: Geneva, sans-serif;
 
 
 }
@@ -275,3 +276,34 @@ h3 {
     font-family: Geneva, sans-serif;
     color: #455EB5;
 }
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: dark;
+    }
+}
+
+.contact-main {}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.25rem;
+
+
+}
+
+.contact-detail {
+    margin-left: 5px;
+    white-space: nowrap;
+    color: #5643CC;
+
+}
+
+/* .sidebar-social {
+    background-color: #03791a;
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem;
+} */

@@ -5,6 +5,7 @@
 
 .main {
     display: flex;
+    font-family: Geneva, sans-serif;
 
 
 }
@@ -219,12 +220,6 @@ a:nth-child(5):hover~.animation {
 
 .homepage-display {
     margin-top: 3rem;
-    background-image: url('/assets/git-toolbox.png');
-    background-size: 400px 300px;
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    height: 100%;
-
 }
 
 .content-display {
@@ -275,4 +270,36 @@ h3 {
     margin-top: 2rem;
     font-family: Geneva, sans-serif;
     color: #455EB5;
+}
+
+h2 {
+    margin-top: 3rem;
+    color: #03791a;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: dark;
+    }
+}
+
+.contact-main {}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.25rem;
+
+
+}
+
+.contact-detail {
+    margin-left: 5px;
+    white-space: nowrap;
+    color: #5643CC;
+
 }
